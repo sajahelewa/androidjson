@@ -2,6 +2,7 @@ package com.example.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.myapp.databinding.ActivityMainBinding;
@@ -17,6 +18,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         binding=ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+        startActivity(intent);
 
 String datajson = {
         "book":{
