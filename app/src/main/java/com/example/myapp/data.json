@@ -1,0 +1,15 @@
+{
+ "book":{
+   "imgURL": "https://www.chemicals.co.uk/blog/what-do-vv-ww-wv-mean",
+   "titel": "Hamlet",
+   "author": "Shakespeare",
+   "isPublished": "ture",
+   "puplisher": {
+     "name": "simon",
+     "location":"londen"
+   }
+
+
+
+}
+}
